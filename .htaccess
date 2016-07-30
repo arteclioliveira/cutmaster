@@ -1,0 +1,33 @@
+# -FrontPage-
+RewriteEngine On
+ 
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+ order deny,allow
+ deny from all
+ allow from all
+</Limit>
+
+<Limit PUT DELETE>
+ order deny,allow
+ deny from all
+</Limit>
+
+AuthName cutmaster.com.br
+AuthUserFile /disk1/home2/cutmaste/public_html/_vti_pvt/service.pwd
+AuthGroupFile /disk1/home2/cutmaste/public_html/_vti_pvt/service.grp
+
+
+
+RewriteRule ^home$ index.
+
+RewriteRule ^sobre$ sobre.
+
+RewriteRule ^contato$ contato.
+
+RewriteRule ^curiosidades$ curiosidades.
+
+RewriteRule ^assistenciatecnicanotebookdell$ assistenciatecnicanotebookdell.
+
+

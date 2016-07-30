@@ -1,0 +1,19 @@
+
+.btn-h2{
+	color: #808080;
+}
+
+.mapsite {
+	color: #4d4d4d;
+}
+
+.divider-H {
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.heading-H {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
